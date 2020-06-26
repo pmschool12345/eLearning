@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1070681590205",
+    "firebase_url": "https://pms-elearning.firebaseio.com",
+    "project_id": "pms-elearning",
+    "storage_bucket": "pms-elearning.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070681590205:android:83f1cd123afe5930002ad4",
+        "android_client_info": {
+          "package_name": "com.pmschool.pmschoolelearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070681590205-qce155j29o1esrjbv5di91d0tcbm4odd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pmschool.pmschoolelearning",
+            "certificate_hash": "159bf81d60c82e79440211d6a4abc529735b4711"
+          }
+        },
+        {
+          "client_id": "1070681590205-acpecp81bj57hq7fqamr82ku7u1uv66k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAn3t0scNs20QI-8eXT0c_pDlzDfyvN0Zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070681590205-acpecp81bj57hq7fqamr82ku7u1uv66k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
