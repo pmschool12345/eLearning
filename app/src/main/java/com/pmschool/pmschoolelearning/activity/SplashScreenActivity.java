@@ -1,4 +1,4 @@
-package com.pmschool.pmschoolelearning;
+package com.pmschool.pmschoolelearning.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+
+import com.pmschool.pmschoolelearning.R;
 
 public class SplashScreenActivity extends AppCompatActivity {
 

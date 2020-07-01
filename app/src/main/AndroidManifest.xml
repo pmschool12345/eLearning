@@ -9,20 +9,43 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreenActivity" android:theme="@style/SplashScreenTheme">
+        <activity android:name=".activity.SchoolVerificationActivity"></activity>
+        <activity
+            android:name=".activity.SubjectTeacherDetailActivity"
+            android:parentActivityName=".activity.RoleActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.DarkActionbar" />
+        <activity
+            android:name=".activity.ClassTeacherDetailsActivity"
+            android:parentActivityName=".activity.RoleActivity"
+            android:theme="@style/AppTheme.DarkActionbar" />
+        <activity
+            android:name=".activity.RoleActivity"
+            android:theme="@style/AppTheme.DarkActionbar" />
+        <activity
+            android:name=".activity.CodeVerificationActivity"
+            android:parentActivityName=".activity.PhoneVerificationActivity" />
+        <activity android:name=".activity.PhoneVerificationActivity" />
+        <activity
+            android:name=".activity.SplashScreenActivity"
+            android:theme="@style/SplashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
-
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
-        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/AppTheme.DarkActionbar" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/AppTheme.DarkActionbar" />
     </application>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
 
 </manifest>

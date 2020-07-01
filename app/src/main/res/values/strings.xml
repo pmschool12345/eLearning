@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">PMS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="quote1">"An investment in knowledge pays the best interest"</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="otp_message">OTP has been sent to your phone number. Please enter it below</string>
+    <string name="verification">VERIFY</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="continue_phone">CONTINUE</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="class_teacher">Class Teacher</string>
+    <string name="are_you_class_teacher">Are you a class teacher?</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="verification1">Verification</string>
+    <string name="first_name">First Name</string>
+    <string name="next">Next</string>
+    <string name="last_name">Last Name</string>
+    <string name="choose_class">Choose Class</string>
+    <string name="choose_class_teacher">Please choose a class, section and subject in which you are a class teacher</string>
+    <string name="choose_section">Choose Section</string>
+    <string name="add">Add</string>
+    <string name="choose_subject">Choose Subject</string>
+    <string name="done">Done</string>
 </resources>

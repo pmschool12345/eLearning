@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textInputLayout3" type="id"/>
+    <item name="textInputLayout4" type="id"/>
+    <item name="et_class_layout" type="id"/>
+    <item name="et_section_layout" type="id"/>
+    <item name="et_subject_layout" type="id"/>
+</resources>
